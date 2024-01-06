@@ -57,7 +57,7 @@ e = CTkEntry(master, width = 350, height = 40)
 e.grid(row=0, column=1)
  
 # creating a button using the widget
-b = CTkButton(master, text="Show", command=app, fg_color=("red", "red"), text_color=("white", "white"), hover_color=("red", "red"))
+b = CTkButton(master, text="Show", command=app, fg_color=("blue", "blue"), text_color=("white", "white"), hover_color=("blue", "blue"))
 b.grid(row=0, column=2, columnspan=2, rowspan=2, padx=5, pady=5,)
  
 master.mainloop()
