@@ -1,11 +1,15 @@
-import re
+from PIL import Image
+import pyfiglet
 
-text = "Lesson12"
 
-# Regular expression for finding integers
-pattern = r"\d+"
+# Open an existing image
+original_image = Image.open("")
 
-# Find all occurrences of the pattern
-numbers = re.findall(pattern, text)
+# Define the new size
+new_size = (800, 600)  # For example, 800x600 pixels
 
-print(numbers)  # ['3', '5', '10']
+# Resize the image
+resized_image = original_image.resize(new_size)
+
+# Save the resized image
+resized_image.save("path/to/your/resized_image.jpg")
