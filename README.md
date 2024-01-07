@@ -10,7 +10,7 @@ Used to find the uninstall.exe of an application quickly and easily
 ## YouTube-Video Installer
 Used to install a youtube video with just a link. Takes a youtube link and downloads the video
 to C:\Users\tahai\Documents\offline_vids/
-![Youtube-Video](readme_images/youtube_downloader/downloader_image.png)
+![Youtube-Video](readme_images/youtube_downloader/downloader_image.PNG)
 
 
 ## PDF Merger
