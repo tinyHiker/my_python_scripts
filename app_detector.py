@@ -2,6 +2,7 @@
 import customtkinter
 from customtkinter import *
 import winapps
+import pyfiglet
  
  
 customtkinter.set_appearance_mode('dark')
@@ -60,4 +61,8 @@ e.grid(row=0, column=1)
 b = CTkButton(master, text="Show", command=app, fg_color=("blue", "blue"), text_color=("white", "white"), hover_color=("blue", "blue"))
 b.grid(row=0, column=2, columnspan=2, rowspan=2, padx=5, pady=5,)
  
+ascii_art = pyfiglet.figlet_format("Enter app name to get app info\n. Info includes uninstall.exe path")
+print(ascii_art)
+
+
 master.mainloop()
